@@ -1,7 +1,6 @@
 import { Facebook, Instagram, Twitter, Linkedin, Github } from "lucide-react";
 
-// usa el archivo que pusiste en public/assets/logo.png
-const logo = "/assets/logo.png";
+import logo from "/assets/logo.png";
 
 export function Footer() {
   return (

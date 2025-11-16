@@ -9,6 +9,14 @@ import {
 } from "./ui/dialog";
 import { motion } from "motion/react";
 
+// importa las imágenes del portafolio
+import imgEcommerce from "../assets/portfolio/ecommerce.png";
+import imgIdentidad from "../assets/portfolio/branding.png";
+import imgAvatar from "../assets/portfolio/avatar_minimalista.png";
+import imgCampania from "../assets/portfolio/reel.png";
+import imgLanding from "../assets/portfolio/landing_2.png";
+import imgLogoTech from "../assets/portfolio/logo_tech.png";
+
 const portfolioItems = [
   {
     title: "E-commerce Moderno",
@@ -16,7 +24,7 @@ const portfolioItems = [
     tags: ["React", "E-commerce", "UI/UX"],
     color: "from-purple-500 to-pink-500",
     image:
-      "/assets/ecommerce.png",
+      imgEcommerce,
     description:
       "Tienda online completa con sistema de pagos, carrito de compras y panel de administración. Desarrollado con las últimas tecnologías para garantizar velocidad y seguridad.",
     result: "Aumento del 45% en conversiones en los primeros 3 meses.",
@@ -27,7 +35,7 @@ const portfolioItems = [
     tags: ["Logo", "Brand Guide", "Stationery"],
     color: "from-blue-500 to-cyan-500",
     image:
-      "/assets/branding.png",
+      imgIdentidad,
     description:
       "Desarrollo completo de identidad visual corporativa incluyendo logo, paleta de colores, tipografía y aplicaciones en diferentes medios.",
     result: "Unificación de la marca en todos los puntos de contacto.",
@@ -38,7 +46,7 @@ const portfolioItems = [
     tags: ["Illustration", "Vector", "Social Media"],
     color: "from-green-500 to-teal-500",
     image:
-      "/assets/avatar_minimalista.png",
+      imgAvatar,
     description:
       "Diseño de avatar personalizado con estilo minimalista, optimizado para redes sociales y plataformas digitales. Incluye múltiples versiones y formatos.",
     result: "Mejora de la recordación de marca personal en redes.",
@@ -49,7 +57,7 @@ const portfolioItems = [
     tags: ["Video", "Animation", "Instagram"],
     color: "from-orange-500 to-red-500",
     image:
-      "/assets/reel.png",
+      imgCampania,
     description:
       "Serie de reels profesionales con animaciones, efectos visuales y edición de alta calidad para aumentar el engagement en Instagram y TikTok.",
     result: "Incremento del 120% en alcance orgánico.",
@@ -60,7 +68,7 @@ const portfolioItems = [
     tags: ["Landing", "Conversion", "Responsive"],
     color: "from-indigo-500 to-purple-500",
     image:
-      "/assets/landing_2.png",
+      imgLanding,
     description:
       "Landing page optimizada para conversión con diseño moderno, animaciones sutiles y llamados a la acción estratégicamente ubicados.",
     result: "Tasa de conversión superior al 8% en lanzamiento.",
@@ -71,7 +79,7 @@ const portfolioItems = [
     tags: ["Modern", "Tech", "Minimal"],
     color: "from-pink-500 to-rose-500",
     image:
-      "/assets/logo_tech.png",
+      imgLogoTech,
     description:
       "Logo moderno y tecnológico para startup, incluyendo versiones en diferentes colores, manual de marca y aplicaciones en mockups.",
     result: "Identidad sólida para presentaciones con inversionistas.",

@@ -2,6 +2,12 @@ import { Card, CardContent, CardDescription, CardHeader } from "./ui/card";
 import { Globe, Palette, User, Video } from "lucide-react";
 import { motion } from "motion/react";
 
+// importa las imágenes (ajusta nombres y rutas reales)
+import imgPaginasWeb from "../assets/servicios/paginas_web.png";
+import imgLogosBranding from "../assets/servicios/logos_branding.png";
+import imgAvatares from "../assets/servicios/avatares.png";
+import imgReels from "../assets/servicios/reels_videos.png";
+
 const services = [
   {
     icon: Globe,
@@ -9,7 +15,7 @@ const services = [
     description:
       "Diseño y desarrollo de sitios web modernos, responsivos y optimizados para SEO. Desde landing pages hasta e-commerce completos.",
     image:
-      "/assets/paginas_web.png",
+      imgPaginasWeb,
     features: [
       "Diseño responsivo",
       "SEO optimizado",
@@ -23,7 +29,7 @@ const services = [
     description:
       "Creación de identidades visuales únicas que representan la esencia de tu marca y te destacan de la competencia.",
     image:
-      "/assets/logos_branding.png",
+      imgLogosBranding,
     features: [
       "Logo personalizado",
       "Manual de marca",
@@ -37,7 +43,7 @@ const services = [
     description:
       "Diseño de avatares únicos para redes sociales, perfiles profesionales y plataformas digitales que reflejan tu personalidad.",
     image:
-      "/assets/avatares.png",
+      imgAvatares,
     features: [
       "Estilo a tu medida",
       "Alta resolución",
@@ -51,7 +57,7 @@ const services = [
     description:
       "Producción y edición de reels profesionales para Instagram, TikTok y otras plataformas que aumentan tu engagement.",
     image:
-      "/assets/reels_videos.png",
+      imgReels,
     features: [
       "Edición profesional",
       "Efectos y transiciones",
